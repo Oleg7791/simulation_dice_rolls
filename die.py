@@ -11,3 +11,5 @@ class Die:
     def roll(self):
         """возвращает случайное число от 1 до num_sides"""
         return randint(1, self.num_sides)
+
+
