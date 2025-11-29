@@ -9,7 +9,7 @@ die2 = Die(10)
 
 # моделирование серии бросков
 results = []
-for roll_num in range(50000):
+for roll_num in range(5000000):
     result = die1.roll() + die2.roll()
     results.append(result)
 # анализ результатов
